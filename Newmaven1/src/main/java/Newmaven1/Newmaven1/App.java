@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello Worldnew" );
+        System.out.println( "Hello Worldnew 4 min" );
         
     }
 }
