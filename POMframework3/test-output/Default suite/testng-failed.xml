@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Vtigertest.LoginTest">
+        <methods>
+          <include name="launchapplication"/>
+          <include name="verifInvalvalidloginTC02"/>
+          <include name="verifyTitaleTC01"/>
+          <include name="verifyvalidloginTC03"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- Vtigertest.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
